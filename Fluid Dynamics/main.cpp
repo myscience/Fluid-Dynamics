@@ -20,10 +20,10 @@ int main() {
 
 	unsigned char* img = new unsigned char[w * h * 4];
 
-	std::ofstream out("debug.txt");
+	std::ofstream out("..\\Debug\\debug.txt");
 
-	LevelSet fls(std::string("fluid.txt"));
-	LevelSet sls(std::string("solid.txt"));
+	LevelSet fls(std::string("..\\res\\fluid.txt"));
+	LevelSet sls(std::string("..\\res\\solid.txt"));
 
 	fls = fls & sls;
 
@@ -32,8 +32,8 @@ int main() {
 
 	//out << sls;
 
-	Grid u(std::string("u_test.txt"));
-	Grid v(std::string("v_test.txt"));
+	Grid u(std::string("..\\res\\u_test.txt"));
+	Grid v(std::string("..\\res\\v_test.txt"));
 
 	Grid g(w, h + 1, 0.5, 0.5, 9.8);
 
