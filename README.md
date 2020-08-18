@@ -3,11 +3,13 @@
 
 This is a simple repo for simple men. Always wanted to write a decent fluid simulation, this is currently my best shot at it.
 Of course, I will be nowhere near this poit were it not for the invaluable "Fluid Simulation for Computer Graphics" by Rober Bridson.
-But some other smart guys (unwittingly) helped me along my days of debugging: the GitHub repo `incremental-fluids` by *tunabrain* stands out.
+But some other smart guys (unwittingly) helped me along my days of debugging: the GitHub repo 
+[`incremental-fluids`](https://github.com/tunabrain/incremental-fluids) by *tunabrain* stands out (with the small downside of being a 
+fluid-solid solver, no space for air, but hey, I got you covered for that).
 
 What is this program so far: a PIC/FLIP 2D Fluid Simulation, absolutely unoptimized.
 
-Features:
+### Features:
 
 - It does not crash (at least not immediatly);
 - It seems to provide reasonable output;
@@ -17,7 +19,7 @@ Features:
 - `lodepng.h` for saving simulation frame to `.png` images;
 - Improved Curved Boundaries (not tested);
 
-What still need to be implemented:
+### What still need to be implemented:
 
 - Extensive optimization. Seriously, a man's patience has limits.
 - Better free surfaces (Bridson: Cap 8.2);
