@@ -32,5 +32,6 @@ What is this program so far: a PIC/FLIP 2D Fluid Simulation, absolutely unoptimi
 
 ### Show me that it works!
 
-Marvel at this magnificent melting earth (rendered with online GifMaker tool [egzif.com](https://ezgif.com/). 
+Marvel at this magnificent melting earth (rendered with online GifMaker tool [egzif.com](https://ezgif.com/)).
+
 ![Earth is melting. Do something!](earth.gif)
