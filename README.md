@@ -25,6 +25,7 @@ What is this program so far: a PIC/FLIP 2D Fluid Simulation, absolutely unoptimi
 - Extensive optimization. Seriously, a man's patience has limits.
 - ~~Better free surfaces (Bridson: Cap 8.2)~~ Done! ✓;
 - Fluid sources/sinks;
+- Save/Load simulation state;
 - Better output graphics;
 - Variable densities;
 - Vorticity confinement;
