@@ -18,13 +18,19 @@ What is this program so far: a PIC/FLIP 2D Fluid Simulation, absolutely unoptimi
 - Level-Set tracking of FLUID-AIR-SOLID geometry;
 - `lodepng.h` for saving simulation frame to `.png` images;
 - Improved Curved Boundaries (not tested);
+- Improved Free Surfaces control;
 
 ### What still need to be implemented:
 
 - Extensive optimization. Seriously, a man's patience has limits.
-- Better free surfaces (Bridson: Cap 8.2);
+- ~~Better free surfaces (Bridson: Cap 8.2)~~ Done! ✓;
 - Fluid sources/sinks;
 - Better output graphics;
 - Variable densities;
 - Vorticity confinement;
 - ...3D (what a dream!);
+
+### Show me that it works!
+
+Marvel at this magnificent melting earth (rendered with online GifMaker too [egzif.com](https://ezgif.com/). 
+![Earth is melting. Do something!](out/earth.gif)
